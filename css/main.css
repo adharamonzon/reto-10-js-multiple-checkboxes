@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 40%;
+  font-family: 'Roboto', sans-serif;
 }
 .inbox--item {
   height: 40px;
@@ -22,4 +23,19 @@
 .input {
   margin-top: 12px;
   margin-left: 10px;
+}
+.footer {
+  margin: 10px;
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon-container {
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  width: 20px;
+  cursor: pointer;
 }
