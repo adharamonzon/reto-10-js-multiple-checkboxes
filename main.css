@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inbox {
+  width: 100%;
+  height: 100vh;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40%;
+}
+.inbox--item {
+  height: 40px;
+  background-color: rgba(252, 244, 232, 0.24);
+  width: 400px;
+  margin-bottom: 5px;
+}
+.input {
+  margin-top: 12px;
+  margin-left: 10px;
+}
